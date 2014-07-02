@@ -72,6 +72,7 @@
     <div class="container">
 
     <!-- Tabs for each class -->
+    <br>
     <ul class="nav nav-tabs" role="tablist">
 	  <li class="active"><a href="#100" data-toggle="tab">CSCI100</a></li>
 	  <li><a href="#102" data-toggle="tab">CSCI102</a></li>
