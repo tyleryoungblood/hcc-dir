@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title>Tyler's HCC Student Directory</title>
 
     <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -42,7 +42,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">Tyler's HCC Student Directory</a>
         </div>
         <div class="navbar-collapse collapse">
           <form class="navbar-form navbar-right" role="form">
@@ -52,7 +52,7 @@
             <div class="form-group">
               <input type="password" placeholder="Password" class="form-control">
             </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
+            <button type="submit" class="btn btn-success">Admin Sign in</button>
           </form>
         </div><!--/.navbar-collapse -->
       </div>
@@ -61,13 +61,67 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+        <h1>Welcome!</h1>
+        <p>Please click on the appropriate tab below and add your class home page to the list!</p>
+        <p><a class="btn btn-primary btn-lg" role="button">Watch the Quick Start Video &raquo;</a></p>
       </div>
     </div>
 
     <div class="container">
+
+    <!-- Tabs for each class -->
+    <ul class="nav nav-tabs" role="tablist">
+	  <li class="active"><a href="#100" data-toggle="tab">CSCI100</a></li>
+	  <li><a href="#102" data-toggle="tab">CSCI102</a></li>
+	  <li><a href="#116" data-toggle="tab">CSCI116</a></li>
+	  <li><a href="#215" data-toggle="tab">CSCI215</a></li>
+	  <li><a href="#216" data-toggle="tab">CSCI216</a></li>
+	</ul>
+
+	<!-- Individual tabs -->
+	<div class="tab-content">
+		<div class="tab-pane active" id="100">
+			<p>100 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p>	
+		</div>
+		<div class="tab-pane" id="102">
+			<p>102 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p>	
+		</div>
+		<div class="tab-pane" id="116">
+			<p>116 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p>	
+		</div>
+		<div class="tab-pane" id="215">
+			<p>215 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p>	
+		</div>
+		<div class="tab-pane" id="216">
+			<p>216 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p>	
+		</div>
+	</div>	
+
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
@@ -90,7 +144,7 @@
       <hr>
 
       <footer>
-        <p>&copy; Company 2014</p>
+        <p>&copy; Tyler Youngblood <?php echo date(Y); ?></p>
       </footer>
     </div> <!-- /container -->
 
